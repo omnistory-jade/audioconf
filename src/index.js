@@ -1,11 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style/index.css";
-import AudioCall from "./Audiocall";
+import AudioConference from "./AudioConference";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <AudioCall />
-  </React.StrictMode>
-);
+root.render(<AudioConference />);
