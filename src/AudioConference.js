@@ -19,8 +19,8 @@ import {
 import LockedButton from "./LockedButton";
 import UserName from "./UserName";
 
-// const omnitalk = new Omnitalk("YN3F-GA3M-4CW2-FDLZ");
-const omnitalk = new Omnitalk("FM51-HITX-IBPG-QN7H", "FWIWblAEXpbIims");
+const omnitalk = new Omnitalk("YN3F-GA3M-4CW2-FDLZ");
+// const omnitalk = new Omnitalk("FM51-HITX-IBPG-QN7H", "FWIWblAEXpbIims");
 export default function AudioConference() {
   const [roomTitle, setRoomTitle] = useState(""); // subject
   const [roomPw, setRoomPw] = useState("");

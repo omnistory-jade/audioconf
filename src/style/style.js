@@ -160,8 +160,10 @@ export const StyledCreateRoom = styled.article`
   }
   .input_container {
     width: 100%;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid lightgray;
     input {
       ${defaultInput}
       width: 400px;
